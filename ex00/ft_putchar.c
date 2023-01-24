@@ -1,4 +1,4 @@
-#include "ft_putchar.h"
+#include "../headers/ft_putchar.h"
 
 #include <unistd.h>
 
