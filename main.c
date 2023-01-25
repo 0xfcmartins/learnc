@@ -43,7 +43,7 @@ int main() {
     WRITE_EMPTY_LINE;
 
     write_line("Module 00, Exercise 08:\n");
-    ft_print_combn(5);
+    ft_print_combn(2);
 
     WRITE_EMPTY_LINE;
 
