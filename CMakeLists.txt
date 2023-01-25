@@ -3,4 +3,4 @@ project(learnc_cpp C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(learnc_cpp main.c ex00/ft_putchar.c headers/ft_putchar.h ex01/ft_print_alphabet.c headers/ft_print_alphabet.h ex03/ft_print_numbers.c headers/ft_print_numbers.h ex02/ft_print_reverse_alphabet.c headers/ft_print_reverse_alphabet.h ft_print_combn.c ft_print_combn.h ft_print_combn.h ft_print_combn.h ft_print_combn.c ex08/ft_print_combn.c ex08/ft_print_combn.h ex08/ft_print_combn.h ex08/ft_print_combn.c ex08/ft_print_combn.c)
+add_executable(learnc_cpp main.c ex00/ft_putchar.c headers/ft_putchar.h ex01/ft_print_alphabet.c headers/ft_print_alphabet.h ex03/ft_print_numbers.c headers/ft_print_numbers.h ex02/ft_print_reverse_alphabet.c headers/ft_print_reverse_alphabet.h ex08/ft_print_combn.c)
