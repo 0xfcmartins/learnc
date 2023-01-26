@@ -7,6 +7,7 @@
 #include "headers/ft_print_combn.h"
 #include "headers/ft_is_negative.h"
 #include "headers/ft_print_comb.h"
+#include "headers/ft_print_comb2.h"
 
 #define BREAK_LINE "\n"
 /**
@@ -24,7 +25,7 @@ void write_line(char *string){
 
 int main() {
 
-    write_line("Module 00, Exercise 00:");
+    /*write_line("Module 00, Exercise 00:");
     ft_putchar('a');
 
     WRITE_EMPTY_LINE;
@@ -54,8 +55,13 @@ int main() {
 
     WRITE_EMPTY_LINE;
 
+    write_line("Module 00, Exercise 06:");
+    ft_print_comb2();
+
+    WRITE_EMPTY_LINE;*/
+
     write_line("Module 00, Exercise 08:");
-    ft_print_combn(1);
+    ft_print_combn(3);
 
     WRITE_EMPTY_LINE;
 
