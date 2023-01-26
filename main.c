@@ -4,7 +4,9 @@
 #include "headers/ft_print_alphabet.h"
 #include "headers/ft_print_numbers.h"
 #include "headers/ft_print_reverse_alphabet.h"
-#include "ex08/ft_print_combn.h"
+#include "headers/ft_print_combn.h"
+#include "headers/ft_is_negative.h"
+#include "headers/ft_print_comb.h"
 
 #define BREAK_LINE "\n"
 /**
@@ -42,8 +44,18 @@ int main() {
 
     WRITE_EMPTY_LINE;
 
-    write_line("Module 00, Exercise 08:\n");
-    ft_print_combn(2);
+    write_line("Module 00, Exercise 04:");
+    ft_is_negative(2);
+
+    WRITE_EMPTY_LINE;
+
+    write_line("Module 00, Exercise 05:");
+    ft_print_comb();
+
+    WRITE_EMPTY_LINE;
+
+    write_line("Module 00, Exercise 08:");
+    ft_print_combn(1);
 
     WRITE_EMPTY_LINE;
 

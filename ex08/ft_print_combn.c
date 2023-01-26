@@ -1,4 +1,4 @@
-#include "ft_print_combn.h"
+#include "../headers/ft_print_combn.h"
 
 #include <unistd.h>
 
